@@ -6,7 +6,7 @@ class Solution:
             if item == '..':
                 if stack: 
                     stack.pop()
-            elif item != '' and item != '/':
+            elif item != '' and item != '.':
                 stack.append(item)
         return f'/{"/".join(stack)}'
 
