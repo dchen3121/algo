@@ -10,3 +10,5 @@ class Solution:
                 stack.append(item)
         return f'/{"/".join(stack)}'
 
+# Difficulty: medium
+# Key point: think how the directory structure is just like a stack
